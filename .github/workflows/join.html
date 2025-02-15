@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Women's Fitness</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #fff; text-align: center; padding: 50px; }
+        h2 { color: #cc0066; }
+        .form-container { max-width: 400px; margin: auto; background: #ffe6f2; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        .btn { background: #ff66a3; color: white; padding: 10px; border: none; width: 100%; cursor: pointer; }
+        .btn:hover { background: #cc0066; }
+    </style>
+</head>
+<body>
+
+    <h2>Join Women's Fitness Training</h2>
+    <div class="form-container">
+        <form action="thankyou.html" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone" required>
+            <select name="program">
+                <option value="personal-training">Personal Training</option>
+                <option value="yoga">Yoga & Flexibility</option>
+                <option value="weight-loss">Weight Loss Program</option>
+            </select>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    <a href="thankyou.html"class="btn">THANK YOU</a>
+
+</body>
+</html>
